@@ -1,0 +1,39 @@
+---
+title: "EmpathBot: a bot which can recognize emotions."
+author: "Kristina Ghahramanyan, Zhora Stepanyan, Artashes Mezhlumyan"
+date: "5/15/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## What is Twitch
+
+Twitch is a popular live-streaming service, typically geared towards gamers, but ever since people have all been stuck at home, desperately craving entertainment, Twitch has proven to be a major player in the live-streaming community. Now it is the main broadcasting platform for musicians, artists, and any other organizations looking to live-stream their broadcasts and connect with their viewers.
+
+
+
+## Topic of interest
+
+On Twitch, there are two types of streamers: variety streamers and non-variety streamers. The first type of people are those who usually like to mix up their content and stream different things. An example of that can be a person who streams different games during a single stream. The people of type two are those who do not like to change up their content; hence they are broadcasting a single category. For example, artists, musicians, or even professional gamers can stream only one type of content (only art, only music, or only one type of game).
+
+Therefore, we came up with the idea that if we are able to know how specific viewers respond to different content, we can optimize many streams. 
+
+
+## Project Purpose and Hypothesis
+
+#### Purpose:
+
+Help streamers in understanding the preferences of people in their communities based on the sentiment analysis of their messages.
+
+
+#### Hypothesis 1:
+
+The quantity of unique chatters (new viewers) and the type of content which is being streamed (specifically the diversity of content), have a specific correlation.
+
+
+#### Hypothesis 2:
+
+Non-variety streamers receive less negative messages than others. Because their content does not change, they attract people who are interested specifically in that category. Therefore, as their viewers have similar midsents, it is less likely that they could disagree or argue with one another.  
