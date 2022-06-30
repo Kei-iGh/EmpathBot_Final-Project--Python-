@@ -1,6 +1,6 @@
 ---
 title: "EmpathBot: a bot which can recognize emotions."
-author: "Kristina Ghahramanyan, Zhora Stepanyan, Artashes Mezhlumyan"
+author: "Kristina Ghahramanyan"
 date: "5/15/2021"
 output: html_document
 ---
